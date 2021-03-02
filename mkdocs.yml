@@ -1,0 +1,82 @@
+# project information
+site_name: "cookiecutter-kicad-demo"
+site_author: "Fred Smith"
+site_description: "Demo KiCAD project using cookiecutter-kicad template"
+
+# Configuration
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - header.autohide
+
+# Page Tree
+nav:
+  - Home: index.md
+  - Checklists:
+      - checklists/sample.md
+      - checklists/sample2.md
+  - Hardware:
+      - Overview: hardware/overview.md
+      - Mechanical: hardware/mechanical.md
+      - License: license.md
+  - Firmware:
+      - Overview: firmware/overview.md
+      - License: license.md
+  - Bill of Materials:
+      - bom.md
+  - Design:
+      - design/design.md
+  - Authors: authors.md
+  - Change Log: changelog.md
+  - References: references.md
+
+# Repository
+repo_name: "madeinoz67/cookiecutter-kicad-demo"
+repo_url: https://github.com/madeinoz67/cookiecutter-kicad-demo
+edit_uri: ""
+
+# plugins
+plugins:
+  - search
+  #- macros
+  - print-site # <- needs to be last plugin
+
+# extensions
+markdown_extensions:
+  - abbr
+  - attr_list
+  - admonition
+  - footnotes
+  - meta
+  - pymdownx.details
+  - pymdownx.snippets
+  - pymdownx.smartsymbols
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tabbed
+  - pymdownx.tilde
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.keys
+  - pymdownx.tasklist:
+      clickable_checkbox: true
+      custom_checkbox: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+# Copyright
+copyright: Copyright &copy; 2021 Fred Smith
+
+# footer customisation
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/madeinoz67/cookiecutter-kicad-demo
+# Google Analytics
+#google_analytics:
+#  - !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]
+# - auto
