@@ -1,6 +1,6 @@
 # Changelog
 
-## [v2020-0-01-alpha](https://github.com/madeinoz67/cookiecutter-kicad-demo/tree/v2020-0-01-alpha) (2021-03-02)
+## [v2021-0-1-alpha](https://github.com/madeinoz67/cookiecutter-kicad-demo/tree/v2021-0-1-alpha) (2021-03-02)
 
 
 
